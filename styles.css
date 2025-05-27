@@ -1,0 +1,580 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+    color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+    background-color:#061b35;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 154px;
+    background-color: #07203F; 
+    border-bottom: 1px solid white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #07203F;
+    max-width: 1440px;
+    width: 100%;
+    height: 153px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nick{
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.navigation{
+    margin-right: 133px;
+    font-size: 33px;
+    font-weight: 500;
+    text-decoration: underline solid white;
+    text-underline-offset: 7px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 801px;
+    height: 100%;
+    background-color: #07203F;
+}
+
+.text-container{
+    margin:0px 46px 0px 137px;
+    color: #D9D9D9;
+}
+
+.frontender-header{
+    width: 100%;
+    height: 100%;
+    max-height: 78px;
+    margin: 159px 0 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.about-me-par{
+    width: 605px;
+    height: 109px;
+    margin: 0 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.contact-button{
+    width: 605px;
+    height: 106px;
+    margin: 50px 0 151px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background:#D9D9D9;
+}
+
+.contact-button:hover{
+    background:rgb(34, 34, 33);
+}
+
+.photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-photo{
+    min-width: 150px;
+    width: 64%;
+    height: 64%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.skills-container{
+    max-width: 1440px;
+    max-height: 796px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("coast.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills-par{
+    display: flex;
+    margin: 135 auto 0 auto;
+    width: 349px;
+    height: 91px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.skillcards-section{
+    width: 100%;
+    height: 100%;
+    max-width: 1167px;
+    max-height: 350px;
+    display: flex;
+    margin: 70 auto;
+    justify-content: space-between;
+}
+
+.bluecards{
+    height: 100%;
+    width: 100%;    
+    max-height: 360px;
+    max-width: 360px;
+    border: 5px solid #D9AA90;
+    background-color: #07203F;
+}
+
+.tancards{
+    height: 360px;
+    width: 360px;
+    border: 5px solid #07203F;
+    background-color: #D9AA90;
+}
+
+.lang-images{
+    width: 350px;
+    height: 223px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+.lang-names{
+    padding-top: 33px;
+    width: 100%;
+    height: 127px;
+    border-width: 1px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    text-shadow: #333333 1px 3px 5px;
+}
+
+
+
+.my-works-container{
+    max-width: 1440px;
+    max-height: 1795px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    background-color: #07203F;
+}
+
+.my-projects{
+    max-width: 614px;
+    max-height: 91px;
+    width: 100%;
+    height: 100%;
+    margin: 135px auto 70px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.soon-photo{
+    max-width: 540px;
+    max-height: 366px;
+    width: 100%;
+    height: 100%;
+}
+
+.my-work-pars{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+}
+
+.my-work-texts{
+    max-width: 452px;
+    max-height: 140px;
+    width: 100%;
+    height: 100%;
+    top: 418px;
+    left: 833px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.soon-text{
+    padding-top: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.work-onethree{
+    max-width: 1118px;
+    max-height: 366px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-two{
+    max-width: 1118px;
+    max-height: 366px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.application-container{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1249px;
+    background-color: #EADED4;
+}
+
+.submit-text{
+    display: flex;
+    align-items: center;
+    width: 759px;
+    height: 124px;
+    margin: 135px auto 0px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+    border: rgb(43, 255, 0) solid 1px;
+}
+
+.application-info{
+    width: 759px;
+    height: 770px;
+    margin: 70px auto 0px;
+    background-color: white;
+    border: rgb(47, 0, 255) solid 1px;
+}
+
+.appl-name{
+    max-width: 631px;
+    width: 100%;
+    height: 98px;
+    margin: 77px auto 0px;
+    background-color: #EADED459;
+    border: red solid 1px;
+}
+
+.appl-email{
+    max-width: 631px;
+    width: 100%;
+    height: 98px;
+    margin: 38px auto;
+    background-color: #EADED459;
+    border: red solid 1px;
+}
+
+.appl-phone{    
+    max-width: 631px;
+    width: 100%;
+    height: 98px;
+    margin: 0px auto;
+    background-color: #EADED459;
+    border: red solid 1px;
+}
+
+.appl-gen{
+    max-width: 631px;
+    width: 100%;
+    height: 98px;
+    margin: 38px auto;
+    background-color: #EADED459;
+    border: red solid 1px;
+}
+
+.appl-buttons{
+    display: flex;
+    max-width: 631px;
+    width: 100%;
+    height: 98px;
+    margin: 0px auto;
+    background-color: #EADED459;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.clear-button{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 266px;
+    height: 68px;
+    background-color:#EADED4;
+}
+
+.send-button{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    width: 266px;
+    height: 68px;
+    background-color:#EADED4;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 153px;
+    background-color: #07203F; 
+    border-bottom: 1px solid white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    
+    .header-container {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navigation {
+        width: 100%;
+        gap: 0.5rem;
+        padding-bottom: 35px;
+    }
+
+
+
+    .about-me-container {
+        width: 100%;
+        height: 1229px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .photo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .my-photo {
+        width: 368px;
+        height: 368px;
+    }
+    .text-container{
+        margin: 20px auto;
+        width: 95%;
+    }
+    .frontender-header {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        font-size: 58px;
+    }
+    .about-me-par {
+        margin: 20px auto;
+        width: 80%;
+    }
+    .contact-button{
+        margin: 20px auto;
+        width: 100%;
+    }
+
+
+
+    .skills-container{
+        max-width: 768px;
+        max-height: 1940px;
+    }
+    .skillcards-section{
+        max-width: 768px;
+        max-height: 1940px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+    .work-onethree {
+        flex-direction: column-reverse;
+        align-items: center;
+        max-height: 545px;
+    }
+    .work-two {
+        flex-direction: column;
+        align-items: center;
+        max-height: 545px;
+    }
+    .soon-photo {
+        flex-direction: column;
+        align-items: center;
+        max-width: 768px;
+        object-fit: cover;
+    }
+}
